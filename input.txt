@@ -1,0 +1,43 @@
+G1:
+# Alphabet
+a b
+# Variables
+S A
+# Start
+S
+# Rules
+S -> aA
+A -> aA
+A -> bA
+A -> ε
+========
+G2:
+# Alphabet
+a b
+# Variables
+S A
+# Start
+S
+# Rules
+S -> aA
+S -> bS
+S -> ε
+A -> aS
+A -> bA
+========
+G3:
+# Alphabet
+a b
+# Variables
+S A
+# Start
+S
+# Rules
+S -> aS
+S -> bA
+A -> aA
+A -> bA
+A -> ε
+========
+# Operation
+Intersection
